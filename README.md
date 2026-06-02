@@ -125,7 +125,7 @@ Website ini dibuat untuk:
 
 Information Systems Student | Data Enthusiast | Creative Designer
 
-- LinkedIn: www.linkedin.com/in/raka-fahlevi
+- LinkedIn: https://www.linkedin.com/in/raka-fahlevi-91b420212/
 - Google Scholar: https://scholar.google.co.id/citations?user=zWae7emEWckC
 - Instagram: @artwork.design16
 
