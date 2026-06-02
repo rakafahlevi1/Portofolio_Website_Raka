@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raka Fahlevi - Portofolio</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css?v=2.0">
+    <!-- Favicon (Browser Tab Icon) -->
+    <link rel="icon" href="Bumi.png">
+</head>
+
+<body>
+    <!-- Starry Night Background for Astronomy Theme -->
+    <div class="stars"></div>
+    <div class="stars2"></div>
+
+    <!-- Background Nebula glow elements -->
+    <div class="nebula nebula-1"></div>
+    <div class="nebula nebula-2"></div>
+    <div class="nebula nebula-3"></div>
+
+
+
+    <!-- Navigation Header -->
+    <header class="navbar-header">
+        <div class="navbar-container">
+            <a href="#" class="logo">RAKA<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <span class="welcome-tag animate-reveal"><i class="fa-solid fa-user-astronaut"></i> Cosmic
+                    Explorer</span>
+                <h1 class="hero-title animate-reveal">Hallo! Saya <span class="gradient-text">Raka Fahlevi</span></h1>
+                <h2 class="hero-subtitle animate-reveal">Creative & Data Enthusiast</h2>
+                <p class="hero-description animate-reveal">
+                    Mahasiswa Tahun Terakhir Sistem Informasi di Perbanas Institute yang memiliki ketertarikan pada
+                    pengembangan teknologi, analisis data, dan Keamanan Informasi. Terbiasa bekerja dalam tim, berpikir
+                    kritis, serta memiliki kemampuan komunikasi dan manajemen waktu yang baik.
+                </p>
+                <div class="hero-buttons animate-reveal">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek Saya <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-visual animate-reveal">
+                <div class="visual-box">
+                    <div class="visual-inner">
+                        <i class="fa-solid fa-user-astronaut visual-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <h2 class="section-title">Tentang <span class="gradient-text">Saya</span></h2>
+            <div class="about-grid">
+                <!-- Foto Raka -->
+                <div class="about-img-card glass-card">
+                    <div class="about-img-wrapper">
+                        <img src="raka.png" alt="Raka Fahlevi">
+                    </div>
+                </div>
+                <!-- Profil Singkat -->
+                <div class="about-card glass-card">
+                    <h3>Profil Singkat</h3>
+                    <p>
+                        Saya merupakan mahasiswa Tahun Terakhir Sistem Informasi di Perbanas Institute yang memiliki
+                        ketertarikan pada pengembangan teknologi, analisis data, dan Keamanan Informasi. Terbiasa
+                        bekerja dalam tim, berpikir kritis, serta memiliki kemampuan komunikasi dan manajemen waktu yang
+                        baik dengan semangat untuk terus belajar dan beradaptasi terhadap perkembangan teknologi.
+                    </p>
+                    <div class="scholarship-tag">
+                        <i class="fa-solid fa-award text-pink"></i> <span>Penerima Beasiswa Penuh</span>
+                    </div>
+                </div>
+                <!-- Statistik Deskriptif -->
+                <div class="about-info-grid">
+                    <div class="info-box glass-card">
+                        <span class="info-number">3.73</span>
+                        <span class="info-label">IPK S1 (Skala 4.0) Cum Laude</span>
+                    </div>
+                    <div class="info-box glass-card">
+                        <span class="info-number">4</span>
+                        <span class="info-label">Proyek Sistem Ril</span>
+                    </div>
+                    <div class="info-box glass-card">
+                        <span class="info-number">6</span>
+                        <span class="info-label">Publikasi Terindeks</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <h2 class="section-title">Kemampuan & <span class="gradient-text">Keahlian</span></h2>
+            <div class="skills-grid">
+                <!-- Hardskills -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-laptop-code text-cyan"></i> Hardskill</h3>
+                    <ul class="skill-list">
+                        <li><span>Data Analytics</span> <span class="skill-level">90%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                        <li><span>Web Development</span> <span class="skill-level">85%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                        <li><span>UI/UX Design</span> <span class="skill-level">80%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                        <li><span>Graphic Design</span> <span class="skill-level">85%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Softskills -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-users-line text-purple"></i> Softskill</h3>
+                    <ul class="skill-list">
+                        <li><span>Teamwork & Collaboration</span> <span class="skill-level">95%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                        <li><span>Problem Solving</span> <span class="skill-level">90%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                        <li><span>Creative Thinking</span> <span class="skill-level">90%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                        <li><span>Adaptability</span> <span class="skill-level">95%</span></li>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </ul>
+                </div>
+                <!-- Tambahan: Bahasa & Sertifikasi -->
+                <div class="skill-category glass-card">
+                    <h3><i class="fa-solid fa-shield-halved text-pink"></i> Informasi Tambahan</h3>
+                    <div class="extra-info-block">
+                        <h4>Sertifikasi</h4>
+                        <ul class="cert-list">
+                            <li><i class="fa-solid fa-circle-check text-cyan"></i> Business Intelligent Analyst (BNSP)
+                            </li>
+                            <li><i class="fa-solid fa-circle-check text-cyan"></i> TOEFL (CLIent)</li>
+                            <li><i class="fa-solid fa-circle-check text-cyan"></i> Google IT Support (Google Digital
+                                Garage X KOMINFO)</li>
+                        </ul>
+                        <h4 style="margin-top: 15px;">Kemampuan Bahasa</h4>
+                        <ul class="lang-list">
+                            <li><strong>Bahasa Indonesia</strong> - Native (Bahasa Asli)</li>
+                            <li><strong>English</strong> - Intermediate (Menengah)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="tools-section scroll-reveal">
+            <h2 class="section-title">Tools <span class="gradient-text">I Use</span></h2>
+            <div class="tools-grid-custom">
+                <div class="tool-badge glass-card" title="Figma">
+                    <i class="fa-brands fa-figma tool-icon text-pink"></i>
+                    <span>Figma</span>
+                </div>
+                <div class="tool-badge glass-card" title="Canva">
+                    <i class="fa-solid fa-crown tool-icon text-cyan"></i>
+                    <span>Canva</span>
+                </div>
+                <div class="tool-badge glass-card" title="Photoshop">
+                    <i class="fa-solid fa-images tool-icon text-purple"></i>
+                    <span>Photoshop</span>
+                </div>
+                <div class="tool-badge glass-card" title="Tableau">
+                    <i class="fa-solid fa-circle-nodes tool-icon text-pink"></i>
+                    <span>Tableau</span>
+                </div>
+                <div class="tool-badge glass-card" title="Excel">
+                    <i class="fa-regular fa-file-excel tool-icon text-cyan"></i>
+                    <span>Excel</span>
+                </div>
+                <div class="tool-badge glass-card" title="Kali Linux">
+                    <i class="fa-solid fa-dragon tool-icon text-purple"></i>
+                    <span>Kali Linux</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section scroll-reveal">
+            <h2 class="section-title">Riwayat <span class="gradient-text">Pendidikan</span></h2>
+            <div class="education-grid">
+                <!-- S1 Perbanas -->
+                <div class="education-card glass-card">
+                    <div class="edu-header">
+                        <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                        <span class="edu-period">Agu 2022 - Jun 2026</span>
+                    </div>
+                    <h3>S1 Sistem Informasi</h3>
+                    <p class="edu-major">Peminatan Data Analytics</p>
+                    <p class="edu-inst">Perbanas Institute (IPK 3.73/4.00) Cum Laude</p>
+                    <div class="edu-tags">
+                        <span class="edu-tag">Penerima Beasiswa Penuh</span>
+                    </div>
+                    <h4 class="edu-subtitle">Organisasi Kemahasiswaan:</h4>
+                    <ul class="edu-orgs">
+                        <li>Himpunan Mahasiswa Sistem Informasi (HIMSI)</li>
+                        <li>Radio IPFM Perbanas</li>
+                    </ul>
+                </div>
+                <!-- SMK Cibinong -->
+                <div class="education-card glass-card">
+                    <div class="edu-header">
+                        <i class="fa-solid fa-school edu-icon"></i>
+                        <span class="edu-period">Jul 2018 - Jun 2021</span>
+                    </div>
+                    <h3>Teknik Komputer dan Jaringan</h3>
+                    <p class="edu-major">Sekolah Menengah Kejuruan</p>
+                    <p class="edu-inst">SMK Mekanik Cibinong (Nilai: 82.40)</p>
+                    <h4 class="edu-subtitle">Organisasi Kesiswaan:</h4>
+                    <ul class="edu-orgs">
+                        <li>Pasukan Pengibar Bendera (PASKIBRA) Tingkat Sekolah</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section scroll-reveal">
+            <h2 class="section-title">Pengalaman <span class="gradient-text">Kerja</span></h2>
+
+            <div class="timeline">
+                <!-- Exp 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Maret 2025 - Sekarang</div>
+                    <div class="timeline-content glass-card">
+                        <h4>FTI Computer Lab Assistant</h4>
+                        <h5>Perbanas Institute</h5>
+                        <ul class="exp-details">
+                            <li>Membantu pelaksanaan manajemen dan operasional laboratorium komputer.</li>
+                            <li>Menyediakan dukungan teknis sesi praktikum dan kegiatan terkait.</li>
+                            <li>Mengelola dan memelihara website resmi laboratorium.</li>
+                            <li>Mengelola akun media sosial laboratorium dan mempublikasikan konten yang relevan.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">November 2025 - Desember 2025</div>
+                    <div class="timeline-content glass-card">
+                        <h4>VAPT Technical Writer</h4>
+                        <h5>Freelance Project</h5>
+                        <ul class="exp-details">
+                            <li>Menyusun Laporan VAPT secara detail dan akurat.</li>
+                            <li>Mendokumentasikan hasil temuan security assessment (seperti celah keamanan dan
+                                kerentanan sistem).</li>
+                            <li>Menulis Dokumentasi Eksekutif untuk meringkas laporan teknis menjadi dokumen risiko
+                                bisnis yang mudah dipahami oleh manajemen atau klien non-teknis.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Juni 2025 - Agustus 2025</div>
+                    <div class="timeline-content glass-card">
+                        <h4>Creative Unit Internship</h4>
+                        <h5>FTI Perbanas Institute</h5>
+                        <ul class="exp-details">
+                            <li>Mengelola platform media sosial FTI, termasuk Instagram dan Facebook.</li>
+                            <li>Membuat konten tertulis mengenai aktivitas dan kegiatan fakultas.</li>
+                            <li>Mendesain materi visual seperti poster dan aset publikasi web/media sosial.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exp 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Januari 2023 - Maret 2023</div>
+                    <div class="timeline-content glass-card">
+                        <h4>Marketing Support</h4>
+                        <h5>Perbanas Institute</h5>
+                        <ul class="exp-details">
+                            <li>Menjalankan strategi promosi untuk memperkenalkan institusi ke sekolah dan organisasi
+                                pendidikan.</li>
+                            <li>Membuat dokumen video kegiatan dan menerbitkannya di media sosial.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <h2 class="section-title">Portofolio <span class="gradient-text">Proyek</span></h2>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+
+                <!-- ═══════════════════════════════════════════════════
+                     PROYEK 1 — SI Seleksi KIP-Kuliah
+                     🖼️ GANTI GAMBAR: Ubah URL di dalam src="..." di bawah ini
+                     Contoh: src="foto-saya.jpg" atau src="https://link-gambar.com/foto.jpg"
+                ═══════════════════════════════════════════════════ -->
+                <div class="project-card glass-card">
+                    <div class="project-img-container">
+                        <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&auto=format&fit=crop&q=80"
+                            alt="SI Seleksi KIP-Kuliah" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Mei 2026 - Sekarang</span>
+                        <h3>SI Seleksi Calon Penerima Beasiswa KIP-Kuliah</h3>
+                        <p>Perancangan sistem terintegrasi untuk menyaring dan mengelola calon penerima beasiswa
+                            KIP-Kuliah di lingkungan Perbanas Institute secara efektif dan transparan.</p>
+                        <div class="project-links">
+                            <!-- 🔗 GANTI LINK: Ubah href="#" dengan URL live web proyek Anda -->
+                            <a href="#" class="project-link"><i class="fa-solid fa-globe"></i> Live Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════
+                     PROYEK 2 — Portofolio Website
+                     🖼️ GANTI GAMBAR: Ubah URL di dalam src="..." di bawah ini
+                ═══════════════════════════════════════════════════ -->
+                <div class="project-card glass-card">
+                    <div class="project-img-container">
+                        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&auto=format&fit=crop&q=80"
+                            alt="Portofolio Website" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Mei 2026 - Sekarang</span>
+                        <h3>Perancangan dan Pengembangan Portofolio Website</h3>
+                        <p>Pembuatan website portofolio interaktif premium bertema astronomi yang merepresentasikan
+                            profil diri, kemampuan teknis, dan seluruh karya ilmiah.</p>
+                        <div class="project-links">
+                            <a href="https://labwebfti.com/Website_Portofolio_Raka/" target="_blank"
+                                class="project-link"><i class="fa-solid fa-globe"></i> Live Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════
+                     PROYEK 3 — SIE Dashboard
+                     🖼️ GANTI GAMBAR: Ubah URL di dalam src="..." di bawah ini
+                ═══════════════════════════════════════════════════ -->
+                <div class="project-card glass-card">
+                    <div class="project-img-container">
+                        <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&auto=format&fit=crop&q=80"
+                            alt="SIE Dashboard" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Desember 2025 - Sekarang</span>
+                        <h3>Sistem Informasi Eksekutif (SIE) Berbasis Dashboard</h3>
+                        <p>Dashboard monitoring visual interaktif untuk melacak pemesanan layanan secara real-time demi
+                            efisiensi keputusan operasional eksekutif.</p>
+                        <div class="project-links">
+                            <!-- 🔗 GANTI LINK: Ubah href="#" dengan URL live web proyek Anda -->
+                            <a href="#" class="project-link"><i class="fa-solid fa-globe"></i> Live Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════
+                     PROYEK 4 — UI/UX Lab FTI
+                     🖼️ GANTI GAMBAR: Ubah URL di dalam src="..." di bawah ini
+                ═══════════════════════════════════════════════════ -->
+                <div class="project-card glass-card">
+                    <div class="project-img-container">
+                        <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&auto=format&fit=crop&q=80"
+                            alt="UI/UX Lab FTI" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Desember 2025 - Januari 2026</span>
+                        <h3>Perancangan UI/UX Website Laboratorium FTI</h3>
+                        <p>Redesain visual antarmuka dan penataan struktur informasi portal web resmi Laboratorium
+                            Fakultas Teknologi Informasi Perbanas Institute.</p>
+                        <div class="project-links">
+                            <a href="https://labwebfti.com/Website_Portofolio_Raka/" target="_blank"
+                                class="project-link"><i class="fa-solid fa-globe"></i> Live Web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ═══════════════════════════════════════════════════
+                     PROYEK 5 — Poster Design
+                     🖼️ GANTI GAMBAR: Ubah URL di dalam src="..." di bawah ini
+                ═══════════════════════════════════════════════════ -->
+                <div class="project-card glass-card project-card-wide">
+                    <div class="project-img-container">
+                        <img src="https://img.magnific.com/free-photo/cosmic-planet-with-rings-space-background_23-2151955850.jpg?semt=ais_hybrid&w=740&q=80"
+                            alt="Poster Design" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-tag">Graphic Design • Ongoing</span>
+                        <h3>Poster Design — @artwork.design16</h3>
+                        <p>Koleksi karya desain poster artistik dengan gaya editorial dan storytelling visual yang kuat.
+                            Menggabungkan teknik tipografi ekspresif, tone warna moody, dan komposisi foto yang dramatis
+                            untuk mengomunikasikan narasi emosional yang mendalam melalui medium visual.</p>
+                        <div class="project-links">
+                            <a href="https://www.instagram.com/artwork.design16" target="_blank" class="project-link"><i
+                                    class="fa-brands fa-instagram"></i> @artwork.design16</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="publications-section scroll-reveal">
+            <h2 class="section-title">Publikasi <span class="gradient-text">Ilmiah</span></h2>
+            <div class="publications-list">
+                <!-- Paper 1 -->
+                <a href="https://scholar.google.co.id/citations?view_op=view_citation&hl=id&oe=ASCII&user=zWae7emEWckC&citation_for_view=zWae7emEWckC:UeHWp8X0CEIC"
+                    target="_blank" class="publication-item glass-card">
+                    <div class="pub-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="pub-info">
+                        <h3>Policy Recommendations for Enhancing Sustainable Performance in Banking Through Leveraging
+                            FinTech (2026)</h3>
+                        <p>Google Scholar • Raka Fahlevi, et al.</p>
+                    </div>
+                </a>
+
+                <!-- Paper 2 -->
+                <a href="https://scholar.google.co.id/citations?view_op=view_citation&hl=id&oe=ASCII&user=zWae7emEWckC&citation_for_view=zWae7emEWckC:2osOgNQ5qMEC"
+                    target="_blank" class="publication-item glass-card">
+                    <div class="pub-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="pub-info">
+                        <h3>Partnership Models to Strengthen the Promotion of Sustainable Tourism at Gunung Padang Site,
+                            Tourism Destination, West Java, Indonesia (2025)</h3>
+                        <p>Google Scholar • Raka Fahlevi, et al.</p>
+                    </div>
+                </a>
+
+                <!-- Paper 3 -->
+                <a href="https://scholar.google.co.id/citations?view_op=view_citation&hl=id&oe=ASCII&user=zWae7emEWckC&citation_for_view=zWae7emEWckC:9yKSN-GCB0IC"
+                    target="_blank" class="publication-item glass-card">
+                    <div class="pub-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="pub-info">
+                        <h3>Model Kemitraan untuk Memperkuat Promosi Pariwisata Berkelanjutan di Destinasi Situs Gunung
+                            Padang, Jawa Barat, Indonesia (2025)</h3>
+                        <p>Google Scholar • Raka Fahlevi, et al.</p>
+                    </div>
+                </a>
+
+                <!-- Paper 4 -->
+                <a href="https://scholar.google.co.id/citations?view_op=view_citation&hl=id&oe=ASCII&user=zWae7emEWckC&citation_for_view=zWae7emEWckC:u-x6o8ySG0sC"
+                    target="_blank" class="publication-item glass-card">
+                    <div class="pub-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="pub-info">
+                        <h3>Memanfaatkan Handphone Menjadi Cuan: Literasi Digital Bagi Warga Desa Ligarmukti (2025)</h3>
+                        <p>Google Scholar • Raka Fahlevi, et al.</p>
+                    </div>
+                </a>
+
+                <!-- Paper 5 -->
+                <a href="https://scholar.google.co.id/citations?view_op=view_citation&hl=id&oe=ASCII&user=zWae7emEWckC&citation_for_view=zWae7emEWckC:d1gkVwhDpl0C"
+                    target="_blank" class="publication-item glass-card">
+                    <div class="pub-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="pub-info">
+                        <h3>Sistem Absensi Pintar Menggunakan YOLO dan CNN untuk Pengenalan Wajah Secara Waktu Nyata
+                            (2025)</h3>
+                        <p>Google Scholar • Raka Fahlevi, et al.</p>
+                    </div>
+                </a>
+
+                <!-- Paper 6 -->
+                <a href="https://scholar.google.co.id/citations?view_op=view_citation&hl=id&oe=ASCII&user=zWae7emEWckC&citation_for_view=zWae7emEWckC:u5HHmVD_uO8C"
+                    target="_blank" class="publication-item glass-card">
+                    <div class="pub-icon"><i class="fa-solid fa-file-lines"></i></div>
+                    <div class="pub-info">
+                        <h3>Continuance Intention pada Aplikasi E-Wallet dengan Menggunakan Extended Expectation
+                            Confirmation Model (EECM) (2024)</h3>
+                        <p>Google Scholar • Raka Fahlevi, et al.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="pub-more-container">
+                <a href="https://scholar.google.co.id/citations?user=zWae7emEWckC&hl=id&oi=ao" target="_blank"
+                    class="btn btn-secondary">
+                    <i class="fa-solid fa-graduation-cap"></i> Lihat Semua di Google Scholar
+                </a>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section scroll-reveal">
+            <h2 class="section-title">Penghargaan <span class="gradient-text">Akademik</span></h2>
+            <div class="achievements-grid">
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-medal text-cyan"></i></div>
+                    <h3>Program Kreativitas Mahasiswa (PKM) 2025</h3>
+                    <p>Terpilih dalam Proposal Skema Insentif Kategori Artikel Ilmiah oleh Kementerian Pendidikan,
+                        Kebudayaan, Riset, dan Teknologi RI pada ajang PKM 2025.</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-file-invoice text-purple"></i></div>
+                    <h3>Presenter Seminar Nasional</h3>
+                    <p>Presenter Makalah di Seminar Nasional Perbanas Institute (Kategori Pengabdian Masyarakat & Call
+                        For Paper) tahun 2024, 2025, dan 2026.</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-earth-asia text-pink"></i></div>
+                    <h3>Presenter Kongres Internasional</h3>
+                    <p>Presenter Internasional Makalah Ilmiah di Ankara International Congress on Scientific
+                        Research-VIII pada tahun 2023.</p>
+                </div>
+                <div class="achievement-card glass-card">
+                    <div class="achievement-icon"><i class="fa-solid fa-trophy text-cyan"></i></div>
+                    <h3>Medali Perunggu LKTIN</h3>
+                    <p>Pemenang Medali Perunggu di Lomba Karya Tulis Ilmiah Nasional (LKTIN) Universitas Brawijaya 2023.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <h2 class="section-title">Hubungi <span class="gradient-text">Saya</span></h2>
+            <div class="contact-container">
+                <div class="contact-info glass-card">
+                    <h3>Informasi Kontak</h3>
+                    <p>Terbuka untuk kolaborasi proyek sistem informasi, analisis data, riset ilmiah, atau diskusi
+                        Keamanan Informasi.</p>
+                    <div class="info-details">
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>rakafahlevi90@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+62 85172312210 (Raka)</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Jl. Gatot Subroto, Jakarta Selatan, DKI Jakarta</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/raka-fahlevi-91b420212/" target="_blank"
+                            class="social-icon" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.behance.net/gallery/249493373/Portofolio-Raka-Fahlevi" target="_blank"
+                            class="social-icon" title="Behance"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://labwebfti.com/Website_Portofolio_Raka/" target="_blank" class="social-icon"
+                            title="Website Lab FTI"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contactForm">
+                    <h3>Kirim Pesan</h3>
+                    <div class="form-group">
+                        <label for="name">Nama Anda</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Anda</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" rows="5" required
+                            placeholder="Tuliskan tentang proyek kolaborasi Anda..."></textarea>
+                    </div>
+                    <div class="form-status" id="formStatus"></div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Kirim Pesan</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Raka Fahlevi. All rights reserved. Designed with passion.</p>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js?v=2.0"></script>
+</body>
+
+</html>
